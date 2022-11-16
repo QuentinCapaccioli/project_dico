@@ -50,20 +50,7 @@ Node* creerNode();
 List* creerList();
 int isLetterExist(List* ListFils, char c);
 List* addtoEndList(List* ListFils,char c);
-Node addLetterToDic0(Nodenode, char mot, int i, intnbAction);
-Node* addWordToDic0(Tree** Arbre,char* mot,int nature, int* nbAction);
-Node goToTheRandomNode(ListListFils, int numFils);
-Node displayRandomLetter(Nodenode);
-Node* displayRandomWord(Tree* Arbre, int nature);
 void displaysentence(Tree);
 
-//fléchir les mots
-void FlechirNom(char motF,Node* nodemot,int genre, int nombre);
-void FlechirAdj(char* motF,Node* nodemot,int genre, int nombre);
-void FlechirVerbe(char* motF,Node* nodemot,int temps,int pers, int nombre);
-
-
 //fonction debug
-void displayFormFlechieNom(Nom nom);
-void displayFormFlechieAdj(Adj adj);
 void displayAllSons(List *listFils);
