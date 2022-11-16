@@ -1,5 +1,5 @@
 //
-// Created by clement on 28/10/2022.
+// Created by tmKla on 28/10/2022.
 //
 
 #ifndef UNTITLED9_PARTIE1LLC_H
@@ -45,16 +45,24 @@ typedef struct List{
 typedef struct Tree{
     Node* root;
 }Tree;
-
-Node addLetterToDic0(Nodenode, char mot, int i, intnbAction);
+Nom creerNom();
+Adj creerAdj();
+Verbe creerVerbe();
+Nature* creerNature();
+Tree* creerArbrDico();
+Node* creerNode();
+List* creerList();
+int isLetterExist(List* ListFils, char c);
+List* addtoEndList(List* ListFils,char c);
+Node *addLetterToDic0(Node *node, char *mot, int i, int *nbAction);
 Node* addWordToDic0(Tree** Arbre,char* mot,int nature, int* nbAction);
-Node goToTheRandomNode(ListListFils, int numFils);
-Node displayRandomLetter(Nodenode);
+Node *goToTheRandomNode(List *ListFils, int numFils);
+Node *displayRandomLetter(Node *node);
 Node* displayRandomWord(Tree* Arbre, int nature);
-void displaysentence(Tree);
+void displaysentence(Tree*);
 
 //fléchir les mots
-void FlechirNom(char motF,Node* nodemot,int genre, int nombre);
+void FlechirNom(char* motF,Node* nodemot,int genre, int nombre);
 void FlechirAdj(char* motF,Node* nodemot,int genre, int nombre);
 void FlechirVerbe(char* motF,Node* nodemot,int temps,int pers, int nombre);
 
@@ -62,3 +70,4 @@ void FlechirVerbe(char* motF,Node* nodemot,int temps,int pers, int nombre);
 //fonction debug
 void displayFormFlechieNom(Nom nom);
 void displayFormFlechieAdj(Adj adj);
+void displayAllSons(List *listFils);
