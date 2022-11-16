@@ -1,6 +1,3 @@
-//
-// Created by tmKla on 28/10/2022.
-//
 
 #ifndef UNTITLED9_PARTIE1LLC_H
 #define UNTITLED9_PARTIE1LLC_H
