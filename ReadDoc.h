@@ -1,7 +1,3 @@
-//
-// Created by tmKla on 04/11/2022.
-//
-
 #ifndef UNTITLED9_READDOC_H
 #define UNTITLED9_READDOC_H
 #define NOM 0
