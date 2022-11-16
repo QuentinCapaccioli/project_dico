@@ -1,7 +1,3 @@
-//
-// Created by tmKla on 04/11/2022.
-//
-
 #include "ReadDoc.h"
 int sameWord(char* c1, char* c2, int size){
     int i=0;
