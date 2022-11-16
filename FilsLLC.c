@@ -1,7 +1,3 @@
-//
-// Created by tmKla on 28/10/2022.
-//
-
 #include "FilsLLC.h"
 Nom creerNom(){
     Nom nom;
